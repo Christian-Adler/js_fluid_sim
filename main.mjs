@@ -49,6 +49,8 @@ canvas.addEventListener("mouseup", (evt) => {
 
 const update = () => {
   // const t1 = new Date().getTime();
+  fluid.addDensity(N / 2, N / 2, 1000);
+  fluid.addVelocity(N / 2, N / 2, Math.random() * 10 - 5, Math.random() * 10 - 5);
 
 
   ctx.clearRect(0, 0, worldWidth, worldHeight);

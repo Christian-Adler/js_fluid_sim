@@ -63,7 +63,7 @@ class Fluid {
         // ctx.strokeStyle = 'rgba(255,0,255,1)';
         // console.log(d);
         // ctx.fillStyle = 'rgba(255,255,255,' + d + ')';
-        ctx.fillStyle = 'hsl(' + (d * 10 + 180) + ' 100% 50% / ' + (d * 100) + '%)';
+        ctx.fillStyle = 'hsl(' + (d * 10) + ' 100% 50% / ' + (d * 100) + '%)';
         ctx.beginPath();
         ctx.rect(x, y, this.scale, this.scale);
         ctx.fill();
