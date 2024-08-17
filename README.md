@@ -6,3 +6,5 @@ See as well
 https://www.youtube.com/watch?v=iKAVRgIrUOU
 https://matthias-research.github.io/pages/tenMinutePhysics/17-fluidSim.html
 https://matthias-research.github.io/pages/tenMinutePhysics/index.html
+
+![Preview](https://github.com/Christian-Adler/jjs_fluid_sim/blob/main/preview.jpg?raw=true)
